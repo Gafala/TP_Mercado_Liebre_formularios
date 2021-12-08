@@ -1,0 +1,91 @@
+@import url(./styles.css);
+:root{
+    --amarillo : #EAC926;
+    --azul : #03264C;
+    --celeste : #1259C3;
+    --gris-oscuro : #666;
+    --gris-claro : #EBEBEB;
+    --verde : #39B54A;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.input-caja{
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.caja-intereses{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-right: 20px;
+}
+.span-check{
+    margin-left: 20px;
+}
+.titulo-label{
+    color: #000000;
+    font-weight: bold;
+}
+.input-caja{
+    width: 265px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.caja-labels{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 10px;
+}
+
+.caja-perfil{
+    width: 265px;
+}
+.caja-perfil label {
+    margin-top: 10px;
+
+}
+.caja-fecha-naci{
+    display: flex;
+    flex-direction: column;
+}
+.caja-fecha-naci label{
+    text-align: left;
+    margin-bottom: 10px;
+}
+.caja-fecha-naci input{
+    text-align: left;
+}
+.perfil-opciones{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.caja-enviar{
+    width: 265px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 0 0;
+}
+.boton{
+    background-color:var(--celeste);
+    color: var(--gris-claro);
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    }
+.boton:hover{
+    background-color: var(--verde);
+}
